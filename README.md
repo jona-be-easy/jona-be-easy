@@ -4,14 +4,14 @@
 Learning structured programming in C, Network layer of the OSI module, Data visualization in probability and stats.
 
 ### My 8 Modules - Structured Programming Journey
-- **01 - Basic Output:** [Open Folder](https://github.com/jona-be-easy/Structured-programing-project/tree/main/01_Basic_Output)
-- **02 - Input Process Output:** [Open Folder](https://github.com/jona-be-easy/Structured-programing-practice/tree/main/02_Input_Process_Output)
-- **03 - Decisions (If/else):** [Open Folder](https://github.com/jona-be-easy/Structured-programing-practice/tree/main/03_Decisions)
-- **04 - Basic Loop:** [Open Folder](https://github.com/jona-be-easy/Structured-programing-practice/tree/main/04_Basic_Loop)
-- **05 - Loop Calculation:** [Open Folder](https://github.com/jona-be-easy/Structured-programing-practice/tree/main/05_Loop_Calculation)
-- **06 - Loop Input:** [Open Folder](https://github.com/jona-be-easy/Structured-programing-practice/tree/main/06_Loop_Input)
-- **07 - Loop Decision:** [Open Folder](https://github.com/jona-be-easy/Structured-programing-practice/tree/main/07_Loop_Decision)
-- **08 - Interactive Program:** [Open Folder - View Code](https://github.com/jona-be-easy/Structured-programing-practice/tree/main/08_Interactive_Program)
+- **01 - Basic Output:** [View Code](https://github.com/jona-be-easy/Structured-programing-practice/blob/main/01_basic_output.c)
+- **02 - Input Process Output:** [View Code](https://github.com/jona-be-easy/Structured-programing-practice/blob/main/02_Input_process.c)
+- **03 - Decisions (If/else):** [View Code](https://github.com/jona-be-easy/Structured-programing-practice/blob/main/03_decisions.c)
+- **04 - Basic Loop:** [View Code](https://github.com/jona-be-easy/Structured-programing-practice/blob/main/04_basic_loops.c)
+- **05 - Loop Calculation:** [View Code](https://github.com/jona-be-easy/Structured-programing-practice/blob/main/05_loop_calculation.c)
+- **06 - Loop Input:** [View Code](https://github.com/jona-be-easy/Structured-programing-practice/blob/main/06_loop_input.c)
+- **07 - Loop Decision:** [View Code](https://github.com/jona-be-easy/Structured-programing-practice/blob/main/07_loop_decision.c)
+- **08 - Interactive Program:** [View Code](https://github.com/jona-be-easy/Structured-programing-practice/blob/main/08_interactive_program.c)
   
 ### Skills
 - **Programming:** C (loops, conditionals, 'break', '=' vs '==', '&&' logic)
