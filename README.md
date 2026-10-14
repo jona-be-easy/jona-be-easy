@@ -1,7 +1,7 @@
 ## Hi I'm Jona 👋
 ### A Computer Science student at UCU
 
-Learning structured programming in C, OSI and TCP/IP modul, Data visualization in probability and stats.
+Learning structured programming in C, Network layer of the OSI module, Data visualization in probability and stats.
 
 ### My 8 Modules - Structured Programming Journey
 
@@ -16,9 +16,9 @@ Learning structured programming in C, OSI and TCP/IP modul, Data visualization i
 
 ### Skills
 - **Programming:** C (loops, conditionals, 'break', '=' vs '==', '&&' logic)
-- **Networking:** OSI / TCP/IP model, HTTP vs HTTPS, TLS handshake and DNS
-- **Data Visualization:** Correlation, correlation plots and scatter diagrams - [zomato.ipynb](./zomato.ipynb)
-
+- **Networking:** OSI model, Network layer, Routing, Packeting and TTL
+- **Data Visualization:** Correlation, correlation plots and scatter diagrams 
 ### Featured Projects
-- 📄 Full Documentation: [Structured programming project](./Structured%20programming%20project)
-
+- Full Documentation: [Structured programming project](./Structured%20programming%20project)
+- ** Hardware Assignment - Network Layer (PPT)** - [View / Download](./Hardware%20assignment(OSI%20model).pptx)
+- ** Zomato Data Analysis - Correlation & Scatter Plots:** [Open Notebook](./zomato.ipynb)
