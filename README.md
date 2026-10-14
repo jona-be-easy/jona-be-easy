@@ -4,7 +4,7 @@
 Learning structured programming in C, Network layer of the OSI module, Data visualization in probability and stats.
 
 ### My 8 Modules - Structured Programming Journey
-- **01 - Basic Output:** [Open Folder](https://github.com/jona-be-easy/Structured-programing-practice/tree/main/01_Basic_Output)
+- **01 - Basic Output:** [Open Folder](https://github.com/jona-be-easy/Structured-programing-project/tree/main/01_Basic_Output)
 - **02 - Input Process Output:** [Open Folder](https://github.com/jona-be-easy/Structured-programing-practice/tree/main/02_Input_Process_Output)
 - **03 - Decisions (If/else):** [Open Folder](https://github.com/jona-be-easy/Structured-programing-practice/tree/main/03_Decisions)
 - **04 - Basic Loop:** [Open Folder](https://github.com/jona-be-easy/Structured-programing-practice/tree/main/04_Basic_Loop)
