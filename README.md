@@ -12,11 +12,12 @@ Learning structured programming in C, Network layer of the OSI module, Data visu
 - **06 - Loop Input:** [Open Folder](https://github.com/jona-be-easy/Structured-programing-practice/tree/main/06_Loop_Input)
 - **07 - Loop Decision:** [Open Folder](https://github.com/jona-be-easy/Structured-programing-practice/tree/main/07_Loop_Decision)
 - **08 - Interactive Program:** [Open Folder - View Code](https://github.com/jona-be-easy/Structured-programing-practice/tree/main/08_Interactive_Program)
-
+  
 ### Skills
 - **Programming:** C (loops, conditionals, 'break', '=' vs '==', '&&' logic)
 - **Networking:** OSI model, Network layer, Routing, Packeting and TTL
-- **Data Visualization:** Correlation, correlation plots and scatter diagrams 
+- **Data Visualization:** Correlation, correlation plots and scatter diagrams
+  
 ### Featured Projects
 - **Full Documentation:** [Structured_programming_project](https://github.com/jona-be-easy/Structured-programing-practice)
 - **Hardware Assignment - OSI Model (PPT):** [View / Download](https://github.com/jona-be-easy/jona-be-easy/blob/main/Hardware%20assignment(OSI%20model).pptx)
