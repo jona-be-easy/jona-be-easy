@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Jona | Computer Science Portfolio</title>
+
+    <meta name="description" content="Jona's Computer Science portfolio at Uganda Christian University. Explore C programming, networking, and data visualization projects.">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background: #101010;
+            color: #eeeeee;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.8;
+        }
+
+        a {
+            color: #ff7900;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        a:hover {
+            color: #ffad66;
+        }
+
+        header {
+            background: #181818;
+            border-bottom: 2px solid #ff7900;
+            padding: 18px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .logo {
+            color: #ff7900;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        nav {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 18px;
+        }
+
+        nav a {
+            color: #ffffff;
+            font-size: 14px;
+        }
+
+        nav a:hover {
+            color: #ff7900;
+        }
+
+        .container {
+            width: 88%;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 70px 20px;
+            background: linear-gradient(135deg, #181818, #24201c);
+            border-bottom: 1px solid #333333;
+        }
+
+        .profile-picture {
+            width: 155px;
+            height: 155px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #ff7900;
+            margin-bottom: 20px;
+            background: #252525;
+        }
+
+        .hero h1 {
+            font-size: clamp(30px, 5vw, 46px);
+            color: #ff7900;
+            margin-bottom: 8px;
+        }
+
+        .hero p {
+            color: #cccccc;
+            font-size: 17px;
+        }
+
+        .hero .subtitle {
+            color: #ff7900;
+            margin-top: 5px;
+        }
+
+        .section {
+            padding: 35px 0;
+        }
+
+        .card {
+            background: #1b1b1b;
+            border: 1px solid #383838;
+            border-left: 4px solid #ff7900;
+            border-radius: 10px;
+            padding: 25px;
+            margin-bottom: 24px;
+        }
+
+        h2 {
+            color: #ff7900;
+            font-size: 25px;
+            margin-bottom: 18px;
+        }
+
+        h3 {
+            color: #ff9b40;
+            font-size: 19px;
+            margin: 20px 0 12px;
+        }
+
+        p {
+            margin-bottom: 14px;
+            color: #dddddd;
+        }
+
+        ul {
+            padding-left: 22px;
+        }
+
+        li {
+            margin-bottom: 12px;
+            color: #dddddd;
+        }
+
+        .module-list {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .module-list li {
+            background: #242424;
+            border: 1px solid #333333;
+            padding: 12px 15px;
+            border-radius: 7px;
+            margin-bottom: 12px;
+        }
+
+        .module-list strong {
+            color: #ffffff;
+        }
+
+        .button {
+            display: inline-block;
+            background: #ff7900;
+            color: #101010;
+            padding: 7px 14px;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 13px;
+            margin-top: 6px;
+        }
+
+        .button:hover {
+            background: #ffad66;
+            color: #101010;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 15px;
+        }
+
+        .skill {
+            background: #242424;
+            border: 1px solid #383838;
+            border-radius: 8px;
+            padding: 18px;
+        }
+
+        .skill h3 {
+            margin-top: 0;
+        }
+
+        .project {
+            background: #242424;
+            padding: 18px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            border: 1px solid #383838;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px 15px;
+            background: #181818;
+            border-top: 2px solid #ff7900;
+            color: #aaaaaa;
+            font-size: 14px;
+        }
+
+        footer span {
+            color: #ff7900;
+        }
+
+        @media (max-width: 600px) {
+            header {
+                padding: 16px 6%;
+                justify-content: center;
+                text-align: center;
+            }
+
+            nav {
+                justify-content: center;
+                gap: 12px;
+            }
+
+            .container {
+                width: 90%;
+            }
+
+            .hero {
+                padding: 45px 15px;
+            }
+
+            .card {
+                padding: 18px;
+            }
+
+            h2 {
+                font-size: 22px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">JONA.</div>
+
+        <nav>
+            <a href="#about">About</a>
+            <a href="#modules">My Modules</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <img
+            src="ce488814-8119-45cb-b452-c175a6ee28e8.jpeg"
+            alt="Jona's Profile Picture"
+            class="profile-picture"
+        >
+
+        <h1>Hi, I'm Jona 👋</h1>
+
+        <p class="subtitle">
+            A Computer Science student at UCU
+        </p>
+
+        <p>
+            Learning, building, and growing through technology.
+        </p>
+    </section>
+
+    <main class="container">
+
+        <section class="section" id="about">
+            <div class="card">
+                <h2>👋 About Me</h2>
+
+                <p>
+                    My name is Jona, and I'm a Computer Science student
+                    at Uganda Christian University (UCU).
+                </p>
+
+                <p>
+                    I'm passionate about technology and curious about
+                    how computers work and how software can solve
+                    real-world problems.
+                </p>
+
+                <p>
+                    I'm currently developing my programming skills in C,
+                    learning computer networking, and exploring data
+                    visualization and statistics.
+                </p>
+
+                <p>
+                    My journey is just beginning, and I'm committed to
+                    learning, building projects, and improving myself
+                    one step at a time.
+                </p>
+
+                <p>
+                    I believe that every expert was once a beginner,
+                    and I'm excited to see how far my journey in
+                    technology will take me.
+                </p>
+            </div>
+        </section>
+
+        <section class="section" id="modules">
+            <div class="card">
+                <h2>My 8 Modules - Structured Programming Journey</h2>
+
+                <p>
+                    Explore my C programming journey, from basic output
+                    to interactive programs.
+                </p>
+
+                <ul class="module-list">
+
+                    <li>
+                        <strong>01 - Basic Output</strong><br>
+                        <a class="button"
+                           href="https://github.com/jona-be-easy/Structured-programing-practice/blob/main/01_basic_output.c"
+                           target="_blank" rel="noopener noreferrer">
+                            View Code →
+                        </a>
+                    </li>
+
+                    <li>
+                        <strong>02 - Input Process Output</strong><br>
+                        <a class="button"
+                           href="https://github.com/jona-be-easy/Structured-programing-practice/blob/main/02_Input_process.c"
+                           target="_blank" rel="noopener noreferrer">
+                            View Code →
+                        </a>
+                    </li>
+
+                    <li>
+                        <strong>03 - Decisions (If/else)</strong><br>
+                        <a class="button"
+                           href="https://github.com/jona-be-easy/Structured-programing-practice/blob/main/03_decisions.c"
+                           target="_blank" rel="noopener noreferrer">
+                            View Code →
+                        </a>
+                    </li>
+
+                    <li>
+                        <strong>04 - Basic Loop</strong><br>
+                        <a class="button"
+                           href="https://github.com/jona-be-easy/Structured-programing-practice/blob/main/04_basic_loops.c"
+                           target="_blank" rel="noopener noreferrer">
+                            View Code →
+                        </a>
+                    </li>
+
+                    <li>
+                        <strong>05 - Loop Calculation</strong><br>
+                        <a class="button"
+                           href="https://github.com/jona-be-easy/Structured-programing-practice/blob/main/05_loop_calculation.c"
+                           target="_blank" rel="noopener noreferrer">
+                            View Code →
+                        </a>
+                    </li>
+
+                    <li>
+                        <strong>06 - Loop Input</strong><br>
+                        <a class="button"
+                           href="https://github.com/jona-be-easy/Structured-programing-practice/blob/main/06_loop_input.c"
+                           target="_blank" rel="noopener noreferrer">
+                            View Code →
+                        </a>
+                    </li>
+
+                    <li>
+                        <strong>07 - Loop Decision</strong><br>
+                        <a class="button"
+                           href="https://github.com/jona-be-easy/Structured-programing-practice/blob/main/07_loop_decision.c"
+                           target="_blank" rel="noopener noreferrer">
+                            View Code →
+                        </a>
+                    </li>
+
+                    <li>
+                        <strong>08 - Interactive Program</strong><br>
+                        <a class="button"
+                           href="https://github.com/jona-be-easy/Structured-programing-practice/blob/main/08_interactive_program.c"
+                           target="_blank" rel="noopener noreferrer">
+                            View Code →
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </section>
+
+        <section class="section" id="skills">
+            <div class="card">
+                <h2>My Skills</h2>
+
+                <div class="skills-grid">
+
+                    <div class="skill">
+                        <h3>💻 Programming</h3>
+                        <p>
+                            C programming, loops, conditionals,
+                            break statements, = vs ==, and && logic.
+                        </p>
+                    </div>
+
+                    <div class="skill">
+                        <h3>🌐 Networking</h3>
+                        <p>
+                            OSI model, Network layer, routing,
+                            packetting, and TTL.
+                        </p>
+                    </div>
+
+                    <div class="skill">
+                        <h3>📊 Data Visualization</h3>
+                        <p>
+                            Correlation, correlation plots,
+                            and scatter diagrams.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="projects">
+            <div class="card">
+                <h2>Featured Projects</h2>
+
+                <div class="project">
+                    <h3>📁 Structured Programming Project</h3>
+
+                    <p>
+                        Explore my structured programming work
+                        and its documentation.
+                    </p>
+
+                    <a class="button"
+                       href="https://github.com/jona-be-easy/Structured-programing-practice"
+                       target="_blank" rel="noopener noreferrer">
+                        Full Documentation →
+                    </a>
+                </div>
+
+                <div class="project">
+                    <h3>🖥️ Hardware Assignment - OSI Model</h3>
+
+                    <p>
+                        View or download my presentation on the
+                        OSI model.
+                    </p>
+
+                    <a class="button"
+                       href="https://github.com/jona-be-easy/jona-be-easy/blob/main/Hardware%20assignment(OSI%20model).pptx"
+                       target="_blank" rel="noopener noreferrer">
+                        View / Download →
+                    </a>
+                </div>
+
+                <div class="project">
+                    <h3>📈 Zomato Data Analysis</h3>
+
+                    <p>
+                        Explore my data analysis notebook covering
+                        correlation and scatter plots.
+                    </p>
+
+                    <a class="button"
+                       href="https://github.com/jona-be-easy/jona-be-easy/blob/main/zomato.ipynb"
+                       target="_blank" rel="noopener noreferrer">
+                        Open Notebook →
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="section" id="beyond-coding">
+            <div class="card">
+                <h2>🌟 Beyond Coding</h2>
+
+                <p>
+                    Outside my academic life, I enjoy exploring new
+                    ideas, learning about technology, and discovering
+                    opportunities to grow as a person.
+                </p>
+
+                <p>
+                    I believe that personal growth is just as
+                    important as academic success.
+                </p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>
+            Designed with <span>🧡</span> by Jona
+        </p>
+
+        <p>
+            Computer Science Student | Uganda Christian University
+        </p>
+
+        <p>
+            <a href="https://github.com/jona-be-easy"
+               target="_blank" rel="noopener noreferrer">
+                Visit my GitHub Profile →
+            </a>
+        </p>
+    </footer>
+
+</body>
+</html>
