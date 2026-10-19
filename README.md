@@ -1,4 +1,5 @@
 ## Hi I'm Jona 👋
+![Jona's Profile Picture](jona.jpg)
 ### A Computer Science student at UCU
 
 Learning structured programming in C, Network layer of the OSI module, Data visualization in probability and stats.
