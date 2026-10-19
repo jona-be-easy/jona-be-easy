@@ -2,7 +2,21 @@
 ![Jona's Profile Picture](jona.jpg)
 ### A Computer Science student at UCU
 
-Learning structured programming in C, Network layer of the OSI module, Data visualization in probability and stats.
+## 👋 About Me
+
+My name is Jona, and I'm a Computer Science student at Uganda Christian University (UCU).
+
+I'm passionate about technology and curious about how computers
+work and how software can solve real-world problems.
+
+I'm currently developing my programming skills in C, learning
+computer networking, and exploring data visualization and statistics.
+
+My journey is just beginning, and I'm committed to learning,
+building projects, and improving myself one step at a time.
+
+I believe that every expert was once a beginner, and I'm excited
+to see how far my journey in technology will take me.
 
 ### My 8 Modules - Structured Programming Journey
 - **01 - Basic Output:** [View Code](https://github.com/jona-be-easy/Structured-programing-practice/blob/main/01_basic_output.c)
