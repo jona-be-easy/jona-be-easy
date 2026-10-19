@@ -37,3 +37,12 @@ to see how far my journey in technology will take me.
 - **Full Documentation:** [Structured_programming_project](https://github.com/jona-be-easy/Structured-programing-practice)
 - **Hardware Assignment - OSI Model (PPT):** [View / Download](https://github.com/jona-be-easy/jona-be-easy/blob/main/Hardware%20assignment(OSI%20model).pptx)
 - **Zomato Data Analysis - Correlation & Scatter Plots:** [Open Notebook](https://github.com/jona-be-easy/jona-be-easy/blob/main/zomato.ipynb)
+
+## 🌟 Beyond Coding
+
+Outside my academic life, I enjoy exploring new ideas,
+learning about technology, and discovering opportunities
+to grow as a person.
+
+I believe that personal growth is just as important as
+academic success.
