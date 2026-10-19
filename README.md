@@ -1,5 +1,5 @@
 ## Hi I'm Jona 👋
-![Jona's Profile Picture](profile.jpg)
+![Jona's Profile Picture](ce488814-8119-45cb-b452-c175a6ee28e8.jpeg)
 ### A Computer Science student at UCU
 
 ## 👋 About Me
